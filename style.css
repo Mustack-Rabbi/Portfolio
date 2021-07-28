@@ -1,0 +1,25 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #ffffff;
+}
+
+.menu-bar {
+  position: absolute;
+  width: 285px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: #19b000;
+}
+.my-img {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  left: 25px;
+  top: 44px;
+  background: #ffffff;
+  border-radius: 50%;
+}
