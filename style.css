@@ -23,3 +23,35 @@ body {
   background: #ffffff;
   border-radius: 50%;
 }
+
+.main-body {
+  width: 1205px;
+  height: 1024px;
+  background: red;
+}
+/* .main-body {
+  position: absolute;
+  width: 748px;
+  height: 561px;
+  left: 692px;
+  top: 463px;
+  background: url(images/Web-developer.gif);
+} */
+
+.mbody-text {
+  top: ;
+  bottom: 0px;
+  background: green;
+}
+.main-body h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.main-body p {
+  text-align: center;
+  font-size: 50px;
+}
+.main-body img {
+}
