@@ -29,6 +29,8 @@
   width: 1205px;
   height: 1024px;
   background: red;
+  left: 235px;
+  position: absolute;
 }
 /* .main-body {
   position: absolute;
@@ -40,9 +42,11 @@
 } */
 
 .mbody-text {
-  top: ;
-  bottom: 0px;
   background: green;
+  position: absolute;
+  margin-top: 343px;
+  margin-left: 74px;
+  z-index: 50;
 }
 .main-body h1 {
   text-align: center;
@@ -55,4 +59,10 @@
   font-size: 50px;
 }
 .main-body img {
+  width: 748px;
+  height: 561px;
+  position: relative;
+  margin-top: 450px;
+  margin-left: 456px;
+  z-index: 1;
 }
