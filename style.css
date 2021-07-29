@@ -1,20 +1,21 @@
-/* body {
+body {
   width: 1440px;
   height: 1024px;
   margin: 0;
   padding: 0;
   background: #ffffff;
-} */
+}
 
+/* Start Manu Bar part */
 .menu-bar {
-  position: absolute;
   width: 285px;
   height: 1024px;
   left: 0px;
   top: 0px;
-
   background: #19b000;
+  float: left;
 }
+
 .my-img {
   position: absolute;
   width: 235px;
@@ -24,13 +25,13 @@
   background: #ffffff;
   border-radius: 50%;
 }
-
+/* End Manu Bar part */
+/* Start main body part */
 .main-body {
-  width: 1205px;
+  width: 1155px;
   height: 1024px;
   background: red;
-  left: 235px;
-  position: absolute;
+  float: right;
 }
 /* .main-body {
   position: absolute;
@@ -49,20 +50,21 @@
   z-index: 50;
 }
 .main-body h1 {
-  text-align: center;
+  /* text-align: center; */
   font-weight: bold;
   font-size: 70px;
 }
 
 .main-body p {
-  text-align: center;
+  /* text-align: center; */
   font-size: 50px;
 }
 .main-body img {
   width: 748px;
   height: 561px;
   position: relative;
-  margin-top: 450px;
+  margin-top: 462px;
   margin-left: 456px;
   z-index: 1;
 }
+/* End main body part */
