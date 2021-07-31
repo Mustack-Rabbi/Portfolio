@@ -48,6 +48,81 @@ body {
 
 /* End Manu Bar part */
 /* Start main body part */
+
+/* main body type part */
+:root {
+  /* --bg-color: hsl(49 37% 94%); */
+  --typewriterSpeed: 3s;
+  --typewriterCharacters: 15;
+}
+
+body1 {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  background: var(--bg-color);
+}
+
+.h1a {
+  font-size: clap(1rm, 3vw + 1rm, 4rem);
+  position: relative;
+  /*outline: 2px solid red;*/
+  width: max-content;
+}
+
+.h1a::before,
+.h1a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.h1a::before {
+  background: white;
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+.h1a::after {
+  width: 0.125em;
+  background: black;
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+.subtitle {
+  color: hs1(0 0% 0% /0.7);
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* main body type part */
+
 .main-body {
   position: relative;
   width: 830px;
@@ -91,5 +166,6 @@ body {
   bottom: 0;
   right: 0;
   z-index: 1;
+  filter: ;
 }
 /* End main body part */
