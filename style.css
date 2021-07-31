@@ -29,6 +29,23 @@ body {
   background: #ffffff;
   border-radius: 50%;
 }
+
+.menu-text {
+  margin-top: 90px;
+}
+
+.menu-text li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.menu-text li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+}
+
 /* End Manu Bar part */
 /* Start main body part */
 .main-body {
@@ -61,6 +78,7 @@ body {
 .main-body h1 {
   font-weight: bold;
   font-size: 41px;
+  color: #19b000;
 }
 
 .main-body p {
