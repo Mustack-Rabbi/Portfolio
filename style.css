@@ -18,9 +18,10 @@ body {
   background: #19b000;
   float: left;
   position: fixed;
+  align-items: center;
 }
 
-.my-img {
+/* .my-img {
   width: 143px;
   height: 143px;
   top: 44px;
@@ -28,10 +29,19 @@ body {
   margin-top: 50px;
   background: #ffffff;
   border-radius: 50%;
+} */
+
+.my-img img {
+  width: 143px;
+  height: 143px;
+  margin: 25px;
+  margin-top: 35px;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 165, 0);
 }
 
 .menu-text {
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 .menu-text li {
@@ -126,7 +136,7 @@ body1 {
 .main-body {
   position: relative;
   width: 830px;
-  height: 728px;
+  height: 680px;
   /* height: 1024px; */
   background: white;
   float: right;
@@ -159,7 +169,7 @@ footer {
 .mbody-text {
   background: ;
   position: absolute;
-  margin-top: 256px;
+  margin-top: 212px;
   margin-left: 76px;
   z-index: 50;
 }
