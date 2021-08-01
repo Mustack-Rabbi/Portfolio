@@ -133,6 +133,20 @@ body1 {
   position: z;
   border-bottom: 5px solid green;
 }
+.mb-none {
+  border-bottom: none;
+}
+footer {
+  position: relative;
+  width: 830px;
+  height: 40px;
+  background: black;
+  color: white;
+  float: right;
+  text-align: center;
+  padding-top: 20px;
+  position: z;
+}
 /* .main-body {
   position: absolute;
   width: 748px;
