@@ -8,6 +8,14 @@ body {
   width: 1024px;
   margin: auto;
 }
+.main-body h2 {
+  text-align: center;
+  color: whitesmoke;
+  padding: 10px;
+  background: green;
+  border-radius: 10px;
+  margin: 30px 100px;
+}
 
 /* Start Manu Bar part */
 .menu-bar {
@@ -228,7 +236,7 @@ footer {
   background: green;
   border-radius: 3px;
   position: relative;
-  animation: fillBars 2.5s 1;
+  animation: fillBars 5.5s 1;
 }
 
 .skill-per::before {
@@ -244,7 +252,7 @@ footer {
 }
 
 .skill-per::after {
-  content: "";
+  content: " ";
   position: absolute;
   width: 10px;
   height: 10px;
@@ -258,6 +266,9 @@ footer {
 @keyframes fillBars {
   from {
     width: 0;
+  }
+  to {
+    width: 50%;
   }
   to {
     width: 100%;
