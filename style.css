@@ -12,9 +12,9 @@ body {
   text-align: center;
   color: whitesmoke;
   padding: 10px;
-  background: green;
+  background: #19b000;
   border-radius: 10px;
-  margin: 30px 100px;
+  margin: 5px 100px;
 }
 
 /* Start Manu Bar part */
@@ -143,14 +143,16 @@ body1 {
 
 .main-body {
   position: relative;
-  width: 830px;
+  width: 790px;
   height: 680px;
   /* height: 1024px; */
   background: white;
   float: right;
   position: z;
+  padding: 20px;
   border-bottom: 5px solid green;
 }
+
 .mb-none {
   border-bottom: none;
 }
@@ -227,13 +229,13 @@ footer {
 
 .skill-bar {
   height: 14px;
-  background: #282828;
+  background: #333333;
   border-radius: 3px;
 }
 
 .skill-per {
   height: 14px;
-  background: green;
+  background: #19b000;
   border-radius: 3px;
   position: relative;
   animation: fillBars 5.5s 1;
