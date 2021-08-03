@@ -17,12 +17,13 @@ body {
   margin: 10px 10px 0px 10px;
 }
 
-.main-body p {
-  height: 90%;
+.main-body .p-text {
+  height: 70%;
   text-align: center;
   color: black;
   padding: 10px;
-  background: #d8ffd1;
+  padding-top: 100px;
+  background: #f3fff1;
   border-radius: 10px;
   margin: 0px 10px 10px 10px;
 }
@@ -236,13 +237,13 @@ footer {
   width: 90%;
   max-width: 400;
   padding: 0 20px;
+  margin-top: 100px;
 }
 
 .skill-name {
   font-size: 18px;
   font-weight: 700;
   color: #000000;
-
   margin: 20px 0;
 }
 
