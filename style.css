@@ -14,7 +14,17 @@ body {
   padding: 10px;
   background: #19b000;
   border-radius: 10px;
-  margin: 5px 100px;
+  margin: 10px 10px 0px 10px;
+}
+
+.main-body p {
+  height: 90%;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  background: #d8ffd1;
+  border-radius: 10px;
+  margin: 0px 10px 10px 10px;
 }
 
 /* Start Manu Bar part */
@@ -48,6 +58,10 @@ body {
   border: 5px solid rgb(0, 165, 0);
 }
 
+.my-img img:hover {
+  border: 5px solid whitesmoke;
+}
+
 .menu-text {
   margin-top: 30px;
 }
@@ -62,6 +76,11 @@ body {
   font-weight: bold;
   font-size: 28px;
   color: #ffffff;
+  padding: 2px;
+}
+.menu-text li a:hover {
+  color: rgb(0, 165, 0);
+  background: white;
 }
 
 /* End Manu Bar part */
