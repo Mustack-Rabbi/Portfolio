@@ -318,3 +318,11 @@ footer {
 }
 
 /* End MY SKILLS */
+.contact-p1 {
+  float: left;
+}
+.contact-p2 {
+  float: right;
+}
+
+/* start Contact Me */
