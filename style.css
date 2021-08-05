@@ -52,6 +52,9 @@ body {
   height: 30px;
   width: 30px;
 }
+.link-icon img:hover {
+  background: white;
+}
 
 /* .my-img {
   width: 143px;
