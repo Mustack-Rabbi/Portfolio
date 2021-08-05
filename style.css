@@ -40,6 +40,19 @@ body {
   align-items: center;
 }
 
+.link-icon ul {
+  list-style-type: none;
+  display: inline-block;
+}
+.link-icon ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.link-icon img {
+  height: 30px;
+  width: 30px;
+}
+
 /* .my-img {
   width: 143px;
   height: 143px;
