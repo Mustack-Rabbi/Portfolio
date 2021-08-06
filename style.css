@@ -321,6 +321,19 @@ footer {
 .contact-p1 {
   float: left;
 }
+.contact-p1 ul li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.contact-p1 ul li img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+
 .contact-p2 {
   float: right;
 }
